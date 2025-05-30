@@ -6,6 +6,7 @@ class ReverseTheDigits {
         System.out.println("Welcome to Reverse the digits");
         System.out.print("Please enter your number: ");
         int num = input.nextInt();
+        System.out.println("Before treverse the num is "+num);
         int reverse = reverse(num);
         System.out.println("Reverse of your number is " + reverse);
     }
