@@ -2,6 +2,7 @@ class MaxMinArray {
     public static void main(String[] args) {
         System.out.println("Welcome to Max and Min\n");
         int[] numArr = ArrayUtility.inputArray();
+        
         int max = max(numArr);
         int min = min(numArr);
         System.out.println("Max of the Array is: " + max);
